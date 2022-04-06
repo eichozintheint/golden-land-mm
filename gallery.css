@@ -1,0 +1,470 @@
+body{
+    font-family:sans-serif;
+}
+                                /* **********City********** */
+img{
+    transition:filter 0.3s;
+}
+img:hover{
+    filter:grayscale(1);
+    cursor:pointer;
+}
+.heading{
+    text-align:center;
+    font-weight:800;
+}
+.heading::after{
+    content:'';
+
+    width:170px;
+    height:3px;
+    background-color:orange;
+
+    display:block;
+
+    margin:auto;
+}
+
+.city{
+    width:100%;
+    height:400px;
+    background-color:transparent;
+
+    position:relative;
+}
+
+.city .city-block{
+    width:8px;
+    height:40px;
+    background-color:orange;
+    border:0;
+
+    position:absolute;
+    top:8px;
+    left:20px;
+}
+
+.city .city-heading{
+    text-transform:uppercase;
+
+    position:absolute;
+    top:-4px;
+    left:28px;
+}
+.city-heading::first-letter{
+    font-size:40px;
+}
+
+.city .photo-div1{
+    width:100%;
+    height:250px;
+    background-color:transparent;
+
+    position:absolute;
+    top:90px;
+    left:0;
+
+    position: relative;
+}
+.photo-div1 .photo-ygn{
+    width:300px;
+    height:250px;
+
+    position:absolute;
+    top:0;
+    left:160px;
+}
+.photo-div1 .photo-mdy{
+    width:300px;
+    height:250px;
+
+    position:absolute;
+    top:0;
+    left:474px;
+}
+.photo-div1 .photo-npt{
+    width:300px;
+    height:250px;
+
+    position:absolute;
+    top:0;
+    right:160px;
+}
+                                    /* *******Ethnic********* */
+.ethnic{
+    width:100%;
+    height:650px;
+    background-color:transparent;
+
+    position:relative;
+}
+
+.ethnic .ethnic-block{
+    width:8px;
+    height:40px;
+    background-color:orange;
+    border:0;
+
+    position:absolute;
+    top:5px;
+    left:20px;
+}
+
+.ethnic .ethnic-heading{
+    text-transform:uppercase;
+    
+    position:absolute;
+    top:-8px;
+    left:28px;
+}
+.ethnic-heading::first-letter{
+    font-size:40px;
+}
+
+.ethnic .ethnicphoto-div{
+    width:754px;
+    height:502px;
+    background-color:transparent;
+
+    position:absolute;
+    top:80px;
+    left:260px;
+
+    position:relative;
+}
+
+.ethnicphoto-div .bamar-photo{
+    width:250px;
+    height:250px;
+
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.ethnicphoto-div .chin-photo{
+    width:250px;
+    height:250px;
+
+    position:absolute;
+    top:0;
+    left:252px;
+}
+
+.ethnicphoto-div .karen-photo{
+    width:250px;
+    height:250px;
+
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.ethnicphoto-div .kayah-photo{
+    width:250px;
+    height:250px;
+
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.ethnicphoto-div .rakhine-photo{
+    width:250px;
+    height:250px;
+
+    position:absolute;
+    bottom:0;
+    left:252px;
+}
+
+.ethnicphoto-div .shan-photo{
+    width:250px;
+    height:250px;
+
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+                                /* ********Beautiful Places******* */
+.beautifulplace{
+    width:100%;
+    height:650px;
+    background-color:transparent;
+
+    position: relative;
+}
+
+.beautifulplace .beautifulplace-block{
+    width:8px;
+    height:40px;
+    background-color:orange;
+    border:none;
+
+    position:absolute;
+    top:0;
+    left:20px;
+}
+
+.beautifulplace .bp-heading{
+    text-transform:uppercase;
+
+    position:absolute;
+    top:-13px;
+    left:28px;
+}
+.bp-heading::first-letter{
+    font-size:40px;
+}
+
+.beautifulplace .bp-photo-div{
+    width:754px;
+    height:502px;
+    background-color:none;
+
+    position:absolute;
+    top:80px;
+    left:255px;
+
+    position: relative;
+}
+.bp-photo-div .bagan,.bp-photo-div .inlelake,.bp-photo-div .shwedagon,
+.bp-photo-div .ubein,.bp-photo-div .kuthodaw,.bp-photo-div .ngapali{
+    width:250px;
+    height:250px;
+}
+
+.bp-photo-div .bagan{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.bp-photo-div .shwedagon{
+    position:absolute;
+    top:0;
+    left:252px;
+}
+
+.bp-photo-div .inlelake{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.bp-photo-div .ubein{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.bp-photo-div .kuthodaw{
+    position:absolute;
+    bottom:0;
+    left:252px;
+}
+
+.bp-photo-div .ngapali{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+                               /* ************Food*********** */
+.food{
+    width:100%;
+    height:750px;
+    background-color:transparent;
+
+    position:relative;
+}
+
+body{
+    background-color:#f4f4f4;
+}
+
+.food .food-block{
+    width:8px;
+    height:40px;
+    background-color:orange;
+    border:none;
+
+    position:absolute;
+    top:0;
+    left:20px;
+}
+
+.food .food-heading{
+    text-transform:uppercase;
+
+    position:absolute;
+    top:-14px;
+    left:28px;
+}
+.food-heading::first-letter{
+    font-size:40px;
+}
+
+.food .food-photo-div{
+    width:754px;
+    height:604px;
+    background-color:transparent;
+
+    position:absolute;
+    top:80px;
+    left:280px;
+
+    position:relative;
+}
+
+.food-photo-div img{
+    width:250px;
+    height:200px;
+}
+
+.food-photo-div .mohinga{
+    position:absolute;
+    top:0;
+    left:250px;
+}
+
+.food-photo-div .ngt{
+    position:absolute;
+    top:202px;
+    left:125px;
+}
+
+.food-photo-div .setofdish{
+    position:absolute;
+    top:202px;
+    right:125px;
+}
+
+.food-photo-div .shannoodle{
+    position:absolute;
+    top:404px;
+    left:0;
+}
+
+.food-photo-div .stickyrice{
+    position:absolute;
+    top:404px;
+    left:252px;
+}
+
+.food-photo-div .coconutnoodle{
+    position:absolute;
+    top:404px;
+    right:0;
+}
+                           /* *********Dessert********** */
+.dessert{
+    width:100%;
+    height:500px;
+    background-color:transparent;
+
+    position:relative;
+}
+
+.dessert .dessert-block{
+    width:8px;
+    height:40px;
+    background-color:orange;
+    border:none;
+
+    position:absolute;
+    top:0;
+    left:20px;
+}
+
+.dessert .dessert-heading{
+    text-transform:uppercase;
+
+    position:absolute;
+    top:-14px;
+    left:28px;
+}
+.dessert-heading::first-letter{
+    font-size:40px;
+}
+
+.dessert .dessert-photo-div{
+    width:806px;
+    height:402px;
+    background-color:transparent;
+
+    position:absolute;
+    top:70px;
+    left:220px;
+
+    position:relative;
+}
+
+.dessert-photo-div img{
+    width:200px;
+    height:200px;
+}
+
+.dessert-photo-div .beinmont{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.dessert-photo-div .htoemont{
+    position:absolute;
+    top:0;
+    left:202px;
+}
+
+.dessert-photo-div .montls{
+    position:absolute;
+    top:0;
+    right:202px;
+}
+
+.dessert-photo-div .montsikyaw{
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.dessert-photo-div .shwekyi{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.dessert-photo-div .montlone{
+    position:absolute;
+    bottom:0;
+    left:202px;
+}
+
+.dessert-photo-div .montptl{
+    position:absolute;
+    bottom:0;
+    right:202px;
+}
+
+.dessert-photo-div .montseinpaung{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+                                /* ***********Credit Box********** */
+.credit-box{
+    width:100%;
+    margin:0;
+    padding:0;
+
+    position:absolute;
+    top:3081px;
+    left:0;
+}
+
+.credit-box marquee{
+    background-color:orange;
+    text-transform:uppercase;
+    font-weight:bold;
+    padding:10px 10px;
+}
